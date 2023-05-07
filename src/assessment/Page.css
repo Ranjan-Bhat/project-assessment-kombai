@@ -1,0 +1,857 @@
+.bg {
+    position: absolute;
+    top: 728px;
+    left: 334px;
+    border-radius: 8px;
+    background-color: #23204e;
+    width: 855px;
+    height: 48px;
+    display: none;
+  }
+  .bg1 {
+    position: absolute;
+    top: 792px;
+    left: 334px;
+    border-radius: 8px;
+    background-color: #23204e;
+    width: 855px;
+    height: 48px;
+    display: none;
+  }
+  .bg2 {
+    position: absolute;
+    top: 904px;
+    left: 334px;
+    border-radius: 8px;
+    background-color: #23204e;
+    width: 855px;
+    height: 48px;
+    display: none;
+  }
+  .setting {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    letter-spacing: 0.01em;
+    line-height: 40px;
+    font-weight: 600;
+  }
+  .notification-icon {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .notif-icon {
+    position: absolute;
+    height: 100%;
+    width: 112.5%;
+    top: 0%;
+    right: -6.25%;
+    bottom: 0%;
+    left: -6.25%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .div {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    letter-spacing: 0.01em;
+    line-height: 18px;
+  }
+  .notif-parent {
+    position: absolute;
+    height: 34.62%;
+    width: 30.77%;
+    top: 19.23%;
+    right: 19.23%;
+    bottom: 46.15%;
+    left: 50%;
+  }
+  .notifications {
+    position: absolute;
+    top: 0px;
+    left: 955px;
+    border-radius: 1000px;
+    background-color: #fafafa;
+    width: 52px;
+    height: 52px;
+    overflow: hidden;
+    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .frame-child {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .user-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .chevron-down-icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .user {
+    position: absolute;
+    top: 0px;
+    left: 1023px;
+    border-radius: 1000px;
+    background-color: #fafafa;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    cursor: pointer;
+  }
+  .icon-search {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .small-label-regular-12px {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+  }
+  .label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icon-search-parent {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    border: 1px solid #ecf1f6;
+    box-sizing: border-box;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 16px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    cursor: pointer;
+  }
+  .input-field {
+    position: absolute;
+    top: 0px;
+    left: 740px;
+    border-radius: 12px;
+    width: 191px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #78828a;
+  }
+  .top {
+    position: absolute;
+    top: 32px;
+    left: 297px;
+    width: 1111px;
+    height: 52px;
+    font-size: 32px;
+  }
+  .personal-information {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    font-weight: 500;
+    color: #9ca4ab;
+  }
+  .profile-icon {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .personal-information1 {
+    position: absolute;
+    top: 0px;
+    left: 36px;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .arrow-right-2 {
+    position: absolute;
+    top: 1px;
+    left: 288px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .edit-profile {
+    position: relative;
+    width: 312px;
+    height: 26px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .personal-info-child {
+    position: relative;
+    width: 312px;
+    height: 1px;
+    flex-shrink: 0;
+  }
+  .personal-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .direct-debits2 {
+    position: relative;
+    width: 312px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #78828a;
+    cursor: pointer;
+  }
+  .direct-debits6 {
+    position: absolute;
+    top: 0px;
+    left: 36px;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+    color: #66707a;
+  }
+  .shield-done-icon {
+    position: absolute;
+    top: 1.42px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .personal-information-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    color: #355fe5;
+  }
+  .personal-info {
+    position: absolute;
+    top: 116px;
+    left: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+    font-size: 18px;
+    color: #66707a;
+  }
+  .bg3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 12px;
+    background: linear-gradient(139.54deg, #15223b, #0e192a 0.01%);
+    width: 312px;
+    height: 230px;
+  }
+  .patern-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 16px;
+    width: 312px;
+    height: 229px;
+    overflow: hidden;
+    opacity: 0.08;
+  }
+  .upgrade-to-pro1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 0.01em;
+    line-height: 32px;
+    font-weight: 600;
+  }
+  .courses {
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    color: #d1d8dd;
+    display: inline-block;
+    width: 264px;
+  }
+  .description {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 264px;
+    height: 112px;
+  }
+  .medium-label-medium-14px {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    font-weight: 500;
+  }
+  .label1 {
+    border-radius: 8px;
+    background-color: #355fe5;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .button {
+    position: absolute;
+    top: 160px;
+    left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: #fdfdfd;
+  }
+  .upgrade-to-pro {
+    position: absolute;
+    top: 658px;
+    left: 297px;
+    width: 312px;
+    height: 230px;
+    font-size: 24px;
+    color: #fff;
+  }
+  .bg4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #2a2e41;
+  }
+  .side-bar-child {
+    position: absolute;
+    height: 100%;
+    width: 0.39%;
+    top: 0%;
+    right: -0.19%;
+    bottom: 0%;
+    left: 99.81%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .manage {
+    position: absolute;
+    top: 11.92%;
+    left: 12.45%;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+  }
+  .other {
+    position: absolute;
+    top: 47.47%;
+    left: 12.45%;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+  }
+  .indikator {
+    position: relative;
+    width: 4px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .icon-dashboard {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+  }
+  .dashboard-menu {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 15.96%;
+    right: 0%;
+    bottom: 80%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .iconlyboldwallet {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .transaction {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .iconlyboldwallet-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    cursor: pointer;
+  }
+  .dashboard-menu1 {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 21.62%;
+    right: 0%;
+    bottom: 74.34%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .dashboard-menu2 {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 27.27%;
+    right: 0%;
+    bottom: 68.69%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .dashboard-menu3 {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 32.93%;
+    right: 0%;
+    bottom: 63.03%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .indikator4 {
+    position: relative;
+    background-color: #355fe5;
+    width: 4px;
+    height: 24px;
+  }
+  .dashboard-menu4 {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 38.59%;
+    right: 0%;
+    bottom: 57.37%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+    color: #355fe5;
+  }
+  .toggle-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 1000px;
+    background-color: #fff;
+    border: 2px solid #66707a;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .toggle {
+    position: relative;
+    border-radius: 1000px;
+    background-color: #66707a;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .dashboard-menu5 {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 51.52%;
+    right: 0%;
+    bottom: 44.44%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .dashboard-menu6 {
+    position: absolute;
+    height: 4.04%;
+    width: 100%;
+    top: 57.17%;
+    right: 0%;
+    bottom: 38.79%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .dash {
+    color: #4188f1;
+  }
+  .finpro {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    letter-spacing: -0.02em;
+  }
+  .logo {
+    position: absolute;
+    height: 2.42%;
+    width: 32.68%;
+    top: 4.04%;
+    right: 54.86%;
+    bottom: 93.54%;
+    left: 12.45%;
+    font-size: 20px;
+    color: #fff;
+    font-family: Montserrat;
+  }
+  .side-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 257px;
+    height: 990px;
+    color: #9ca4ab;
+  }
+  .data-privacy1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 28px;
+    font-weight: 600;
+  }
+  .hide {
+    position: absolute;
+    height: 46.15%;
+    width: 3.34%;
+    top: 26.92%;
+    right: 56.75%;
+    bottom: 26.92%;
+    left: 39.92%;
+    overflow: hidden;
+    display: none;
+  }
+  .hide-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    border: 1px solid #ecf1f6;
+    box-sizing: border-box;
+    width: 719px;
+    height: 59px;
+  }
+  .small-label-regular-12px1 {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    display: none;
+  }
+  .label2 {
+    position: absolute;
+    width: 37.69%;
+    top: calc(50% - 15.5px);
+    right: 60.08%;
+    left: 2.23%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .small-label-regular-12px2 {
+    position: absolute;
+    top: 23.73%;
+    left: 2.23%;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .arrow-right-3 {
+    position: absolute;
+    height: 40.68%;
+    width: 3.34%;
+    top: 25.42%;
+    right: 2.36%;
+    bottom: 33.9%;
+    left: 94.3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .privacy-11 {
+    position: relative;
+    width: 719px;
+    height: 59px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .privacy-1 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .small-label-regular-12px4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .arrow-right-31 {
+    position: absolute;
+    height: 92.31%;
+    width: 3.5%;
+    top: 3.85%;
+    right: 0%;
+    bottom: 3.85%;
+    left: 96.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .small-label-regular-12px-parent {
+    position: absolute;
+    height: 44.07%;
+    width: 95.41%;
+    top: 28.81%;
+    right: 2.36%;
+    bottom: 27.12%;
+    left: 2.23%;
+    font-size: 18px;
+    cursor: pointer
+  }
+  .privacy-2 {
+    position: absolute;
+    top: 143px;
+    left: 0px;
+    width: 719px;
+    height: 59px;
+  }
+  .hide-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    border: 1px solid #ecf1f6;
+    box-sizing: border-box;
+    width: 719px;
+    height: 177px;
+  }
+  .label4 {
+    position: absolute;
+    width: 37.69%;
+    top: calc(50% - 74.5px);
+    right: 60.08%;
+    left: 2.23%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .type16 {
+    position: absolute;
+    width: 96.21%;
+    top: 39.37%;
+    left: 0.29%;
+    letter-spacing: 0.01em;
+    line-height: 25.5px;
+    display: inline-block;
+  }
+  .small-label-regular-12px-group {
+    position: absolute;
+    height: 20.47%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 79.53%;
+    left: 0%;
+    font-size: 18px;
+    color: #355fe5;
+  }
+  .type16-parent {
+    position: absolute;
+    height: 71.75%;
+    width: 95.41%;
+    top: 9.6%;
+    right: 2.36%;
+    bottom: 18.64%;
+    left: 2.23%;
+    color: #9ca4ab;
+    cursor: pointer;
+  }
+  .privacy-3 {
+    position: absolute;
+    top: 226px;
+    left: 0px;
+    width: 719px;
+    height: 177px;
+  }
+  .privacy-4 {
+    position: absolute;
+    top: 427px;
+    left: 0px;
+    width: 719px;
+    height: 59px;
+  }
+  .privacy-5 {
+    position: absolute;
+    top: 510px;
+    left: 0px;
+    width: 719px;
+    height: 59px;
+  }
+  .privacy-6 {
+    position: absolute;
+    top: 593px;
+    left: 0px;
+    width: 719px;
+    height: 59px;
+  }
+  .arrow-right-36 {
+    position: absolute;
+    height: 92.31%;
+    width: 3.5%;
+    top: 0%;
+    right: 0%;
+    bottom: 7.69%;
+    left: 96.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .small-label-regular-12px-parent2 {
+    position: absolute;
+    height: 44.07%;
+    width: 95.41%;
+    top: 30.51%;
+    right: 2.36%;
+    bottom: 25.42%;
+    left: 2.23%;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .privacy-7 {
+    position: absolute;
+    top: 676px;
+    left: 0px;
+    width: 719px;
+    height: 59px;
+  }
+  .data-privacy {
+    position: absolute;
+    top: 116px;
+    left: 689px;
+    width: 719px;
+    height: 735px;
+  }
+  .page {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 990px; 
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #1f2c37;
+    font-family: Inter;
+  }
+  
